@@ -1,0 +1,24 @@
+.grid {
+  width: 20%;
+  padding-bottom: 20%;
+  margin: 5% 10%;
+  background-color: blue;
+  position: relative;
+  float: left;
+}
+.grid:after,
+.grid:before {
+  content: "";
+  position: absolute;
+  background-color: white;
+}
+.grid:before {
+  margin: 0 48%;
+  width: 4%;
+  height: 100%;
+}
+.grid:after{
+  margin: 48% 0;
+  height: 4%;
+  width: 100%;
+}
